@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "425965175535",
+    "project_id": "bookdb-727b3",
+    "storage_bucket": "bookdb-727b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425965175535:android:f321d0346f20b9e5c5d11a",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEkhuvtJPyM9IoIsVlsOLizFDJqeCqIdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425965175535:android:534100228a253438c5d11a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEkhuvtJPyM9IoIsVlsOLizFDJqeCqIdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

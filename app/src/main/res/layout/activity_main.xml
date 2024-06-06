@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Toolbar -->
+
+
+    <!-- Button for adding a new book -->
+    <Button
+        android:id="@+id/button_add_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add Book"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp" />
+
+    <!-- Button for updating a book -->
+    <Button
+        android:id="@+id/button_update_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_add_book"
+        android:layout_marginTop="16dp"
+        android:text="Update Book"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp" />
+
+    <!-- Button for getting all books -->
+    <Button
+        android:id="@+id/button_get_all_books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_update_book"
+        android:layout_marginTop="16dp"
+        android:text="Get All Books"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp" />
+
+    <!-- Button for deleting a book -->
+    <Button
+        android:id="@+id/button_delete_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_get_all_books"
+        android:layout_marginTop="16dp"
+        android:text="Delete Book"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp" />
+
+    <!-- Button for searching a book -->
+    <Button
+        android:id="@+id/button_search_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_delete_book"
+        android:layout_marginTop="16dp"
+        android:text="Search Book"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp" />
+
+</RelativeLayout>
